@@ -2,7 +2,7 @@
   Створіть новий тип даних, який підходить для цих двох об'єктів.
 */
 
-type Coordinate = [string, ...string[]];
+type Coordinate = [...string[]];
 
 type Main = {
   title: string;
